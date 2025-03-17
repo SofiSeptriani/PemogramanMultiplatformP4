@@ -15,7 +15,7 @@ void main(List<String> args) {
   } on IntegerDivisionByZeroException catch(exception, stackTrace){
     print('SALAH: terjadi pembagian dengan nilai nol.');
   } catch (exception, stackTrace){
-    print('SALAJ: terjadi eksepsi bertipe $exception.');
+    print('SALAH: terjadi eksepsi bertipe $exception.');
   } finally{
     print('Selesai.......');
   }
